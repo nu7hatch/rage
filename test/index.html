@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Rage against the browsers!</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+    <script src="modernizr-2.0.6.min.js"></script>
+    <script src="../rage.js"></script>
+    <script>
+      Rage.requiredNavigators = {Safari: "535.1", Firefox: "3.1"};
+      Rage.requiredFeatures = ["canvas"]
+      Rage.validate()
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
